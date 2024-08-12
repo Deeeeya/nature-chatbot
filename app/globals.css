@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "jockey one";
+}
+
+body {
+  background-image: url(/Background-Forest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.title {
+  color: #fffada;
+}
+
+.bot-icon {
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #9ec5ab;
+  font-size: 25px;
+}
